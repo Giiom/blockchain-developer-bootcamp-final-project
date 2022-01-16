@@ -3,7 +3,7 @@
 #### My ETH address & Linked ENS
 
 0x4A86783c1d8Af3753980Ece6204Fc5e986065f7a
-## Project Structure
+### Project Structure
 
 The root directory of the project contains the following sub-directories:
 
@@ -12,8 +12,6 @@ contracts: contains all the solidity code.
 migrations: contains the migration scripts for deploying solidity contracts to the blockchain.
 node_modules: contains all smart contract dependencies
 tests - contains the smart contract unit tests (written in javascript). 
-
-```
 
 ### Installation
 
@@ -34,13 +32,13 @@ Dependencies are stored in the `package.json` file. From the main project folder
 
 Set the port to `7545` and networkID to `5777`:
 
-```
+
 development: {
      host: "127.0.0.1",     
      port: 7545,            
      network_id: "5777",       
     }
-```
+
 
 #### Truffle Test in Development Mode
 
